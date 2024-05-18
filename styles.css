@@ -1,0 +1,57 @@
+/* This file acts to style the html text in index.html */
+
+/* */
+
+/* Changes the entire html page */
+html {
+    /* Changes the color of the blackground to the rgba value */
+    background-color: rgba(33, 34, 34, 0.808);
+
+    /*Changes the color of the text within the html file to a white color*/
+    color: rgb(255, 255, 255);
+
+    /* text align centers the text */
+    text-align: center;
+}
+
+/* Changes the style of the header tag in index.html */
+header {
+    /* font weight changes the boldness of the text  */
+    font-weight: bolder;
+    font-size: larger;
+
+    /* Adds an additional margin at the bottom of the header before the rest of the body */
+    margin-bottom: 5%;
+
+}
+
+/* Changes the style of the paragraph text in index.html */
+p {
+    /* Changes the font size of the text to 25px */
+    font-size: 25px;
+
+    /* Changes the line height to be 2x the base value (1) */
+    line-height: 2;
+
+    /* Changes the margins of the paragraph text to be 10% of the div width on the left and right side */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    /* adjusts the image to be 25% of the div's width and the height to automatically adjust accordingly */
+    width: 25%;
+    height: auto;
+}
+
+div {
+    /* Changes the margins of the left and right to be automatic, aligning the divs to the center of the page. bottom margin is set to 5% to give some more seperation between divs */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    /* Creates a small 3px wide border around the header with the assigned color */
+    border: 3px solid rgba(0, 0, 0, 0.493);
+
+    /* sets the width of the divs to be 50% of the page */
+    width: 50%;
+}
